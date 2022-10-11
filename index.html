@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
     <title>PowerTV | Lista de series</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="/">
-            <img src="#" alt="logo PowerTV"/>
+    <header class="navbar-header">
+        <a class="image-logo" href="/">
+            <img src="/public/logo.png" alt="logo PowerTV"/>
         </a>
-        <nav>
-            <ul>
+        <nav class="navbar-list">
+            <ul class="navbar-list-link">
                 <li>
                     <a href="#">INICIO</a>
                 </li>
                 <li>
-                    <a href="#">SERIES</a>
+                    <a class="link-active" href="#">SERIES</a>
                 </li>
                 <li>
                     <a href="#">RECOMENDACIONES</a>
@@ -30,13 +36,16 @@
                 </li>
             </ul>
         </nav>
-        <div>
-            <input/>
-            <img src="#"/>
+        <div class="right-section">
+            <div class="input-search">
+                <input/>
+                <img class="image-search" src="/public/icons/search.svg"/>
+
+            </div>
+            <a href="#">
+                <img class="profile-image" src="/public/profile1.jpg" alt="foto perfil"/>
+            </a>
         </div>
-        <a href="#">
-            <img src="#" alt="foto perfil"/>
-        </a>
     </header>
     <section>
         <h3>LO MÁS VISTO</h3>
