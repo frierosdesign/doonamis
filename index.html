@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header class="navbar-header">
@@ -40,15 +44,60 @@
             <div class="input-search">
                 <input/>
                 <img class="image-search" src="/public/icons/search.svg"/>
-
             </div>
             <a href="#">
                 <img class="profile-image" src="/public/profile1.jpg" alt="foto perfil"/>
             </a>
         </div>
     </header>
-    <section class="lista-section" >
-        <h3 class="heading-title">LO MÁS VISTO</h3>
+    <section class="lista-section">
+        <div class="heading-section">
+            <h3 class="heading-title">LO MÁS VISTO</h3>
+            <div class="dropdown-list">
+                <div class="dropdown">
+                    <span>Ordenar</span>
+                    <img class="chevron" src="/public/icons/chevron.svg"/>
+                    <ul class="dropdown-options">
+                        <li>Mejor valoradas</li>
+                        <li>Lo más nuevo</li>
+                        <li>Recomendado para ti</li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <span>Plataforma</span>
+                    <img class="chevron" src="/public/icons/chevron.svg"/>
+                    <ul class="dropdown-options">
+                        <li>Netflix</li>
+                        <li>PrimeVideo</li>
+                        <li>Diseny+</li>
+                        <li>Todas</li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <span>Género</span>
+                    <img class="chevron" src="/public/icons/chevron.svg"/>
+                    <ul class="dropdown-options">
+                        <li>Acción</li>
+                        <li>Animación</li>
+                        <li>Drama</li>
+                        <li>Thriller</li>
+                        <li>Todos</li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <span>País</span>
+                    <img class="chevron" src="/public/icons/chevron.svg"/>
+                    <ul class="dropdown-options">
+                        <li>Alemania</li>
+                        <li>Dinamarca</li>
+                        <li>España</li>
+                        <li>Estados Unidos</li>
+                        <li>Reino Unido</li>
+                        <li>Todos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <ul class="lista-section-series">
                 <li>
                     <a href="#">

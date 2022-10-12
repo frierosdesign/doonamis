@@ -105,6 +105,12 @@ input {
 
 /* Section */
 
+.heading-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 .heading-title {
     color: white;
     margin-left: 10px;
@@ -112,6 +118,54 @@ input {
     margin-bottom: 30px;
 }
     
+.dropdown-list {
+    display: flex;
+    gap: 15px;
+
+}
+
+.dropdown {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: #1D2553;
+    padding: 5px 15px;
+    gap: 10px;
+    border-radius: 5px;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+}
+
+.chevron {
+    transform: rotate(180deg);
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    top: 40px;
+    background-color: #1D2553;
+    left: 0;
+    border-radius: 5px;
+    min-width: 200px;
+    /* display: none; */
+}
+
+.dropdown-active {
+    display: block
+}
+
+.dropdown-options li{
+    min-width: 100%;
+    padding: 10px 15px;
+    border-bottom: 0.6px solid var(--bordes);
+}
+
+.dropdown-options li:last-child {
+    border: none;
+}
+
 .lista-section {
     max-width: 60rem;
     margin: 0 auto;
